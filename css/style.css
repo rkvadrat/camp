@@ -1,0 +1,60 @@
+body {
+    background: black;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+  align-items: stretch;
+
+}
+
+.btn-primary {
+   margin: 20px;
+}
+
+.btn {
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #00eeff;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    border-radius: .25rem;
+    transition: color .15s cubic-bezier(0.4, 0, 1, 1),background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #29eaf8;
+    border-color: #00eeff;
+    box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #004b3e;
+    border-color: white;
+}
+
+
+
+.row {
+   display: block;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.card {
+    font-size: 2rem;
+}
